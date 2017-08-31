@@ -1,0 +1,28 @@
+{
+    "android": {
+        "AdMob": {
+            "ads": {
+                "testad": {
+                    "width": 0,
+                    "type": "banner",
+                    "id": "ca-app-pub-3873534785931669/2912842034",
+                    "alignment": "bottom",
+                    "height": 0
+                }
+            }
+        },
+        "ios": {
+            "AdMob": {
+                "ads": {
+                    "testad": {
+                        "width": 300,
+                        "type": "banner",
+                        "id": "ca-app-pub-3873534785931669/2912842034",
+                        "alignment": "bottom",
+                        "height": 50
+                    }
+                }
+            }
+        }
+    }
+}
