@@ -155,7 +155,7 @@ void gameMain::setGameTime()
 	time_t timeStamp = time(nullptr);
 	tm *time = localtime(&timeStamp);
 	//CCLOG("%d\n", time->tm_hour);
-	if(time->tm_hour >= 18)
+	if(time->tm_hour >= 18 || time->tm_hour <= 7)
 		night = true;
 }
 
